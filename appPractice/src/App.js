@@ -1,5 +1,6 @@
 import React from 'react';
 import DatePick from './components/datePick'
+import Checkbox from './components/checkbox'
 //import './App.css';
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
         our practice starts---something changed
       </h1>
       <DatePick/>
+      <Checkbox/>
     </div>
   );
 }
